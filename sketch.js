@@ -11,9 +11,16 @@ function preload(){
 
 }
 
+
 function setup() {
     createCanvas(3500,3500)
-      
+    
+    
+    var img0 = random(width);
+  var img1 = random(height);
+   var img2 = random(10, 100);
+    let img3 = random(0,200)
+  image(img0, img1, img2, img3) 
 }
     
     function draw() {
